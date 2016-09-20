@@ -1,0 +1,25 @@
+#+TITLE: OJson
+
+* Introduction
+  This is a software to analysis JSON. It will return Python object. I only used one library(Enum), and this one could be easily canceld.
+
+* Author
+  [[oyzh.github.io][Zhenhuan Ouyang]]
+
+* Date
+  2016-9-19
+
+* Licence
+  (require 'LICENCE)
+
+* Usage
+** test
+#+BEGIN_SRC python
+  python test.py test1.json
+#+END_SRC
+** run
+   Assume that text had contain the JSON's string.
+#+BEGIN_SRC python
+   token = Token(text)
+   parse = Parse(token)
+   result = parse.parse()
