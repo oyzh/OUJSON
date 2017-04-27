@@ -10,7 +10,7 @@
   2016-9-19
 
 * Licence
-  (require 'LICENCE)
+  GNU General Public License v2.0
 
 * Usage
 ** test
